@@ -3,10 +3,10 @@
   "authenticationMethod": "route",
   "routes": [
     {
-      "source": "^/cs/(.*)$",
-      "target": "/cs/$1",
+      "source": "^/api/(.*)$",
+      "target": "/api/$1",
       "destination": "openTextWebReportV1",
-      "authenticationType": "basic",
+      "authenticationType": "none",
       "csrfProtection": false
     },
     {

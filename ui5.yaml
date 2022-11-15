@@ -16,8 +16,9 @@ server:
             - /test-resources
           url: https://ui5.sap.com
         backend:
-          - path: /sap
-            url: http://localhost
+          - path: /cs
+            url: https://otcs.sg39-test.opentext.cloud
+            destination: openTextWebReportV1
     - name: fiori-tools-appreload
       afterMiddleware: compression
       configuration:

@@ -67,6 +67,7 @@ sap.ui.define([
                     "data": form
                     };
                     $.ajax(settings).done(function (response) {
+                        console.log("Call to OpenText: successful");
                         console.log(response);
                       });
             }

@@ -1,0 +1,15 @@
+#Password=<< Existing password/certificate removed on export >>
+#
+#Tue Nov 08 07:51:36 UTC 2022
+Description=Open Text web reports version 1
+Type=HTTP
+TrustAll=true
+HTML5.DynamicDestination=true
+Authentication=BasicAuthentication
+WebIDEUsage=odata_gen
+Name=openTextWebReportV1
+WebIDEEnabled=true
+ProxyType=Internet
+URL=https\://otcs.sg39-test.opentext.cloud
+tokenServiceURLType=Dedicated
+User=kdass
