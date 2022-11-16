@@ -2,6 +2,13 @@
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
-        <content />
+        <content>
+            <List noDataText="No Data to dislay" id="list0" items="{otData>/}">
+                <items>
+                    <StandardListItem type="Navigation" title="{otData>pcr}" description="{otData>invoices}" id="item0" >
+                    </StandardListItem>
+                </items>
+            </List>
+        </content>
     </Page>
 </mvc:View>

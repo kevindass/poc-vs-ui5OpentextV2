@@ -19,7 +19,7 @@
             "mainService": {
                 "uri": "/cs/cs.exe/api/v1/",
                 "type": "JSON"
-                    }
+            }
         },
         "crossNavigation": {
             "inbounds": {
@@ -80,6 +80,7 @@
                 }
             },
             "": {
+                "type": "sap.ui.model.odata.v2.ODataModel",
                 "dataSource": "mainService",
                 "preload": true,
                 "settings": {
@@ -134,6 +135,6 @@
     },
     "sap.cloud": {
         "public": true,
-        "service": "opentext"
+        "service": "cloud.service"
     }
 }
